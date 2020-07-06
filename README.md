@@ -1,1 +1,3 @@
-# macros
+# Macros
+
+Macros for latex documents

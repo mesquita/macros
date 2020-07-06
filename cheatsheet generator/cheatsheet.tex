@@ -1,0 +1,214 @@
+\documentclass[twocolumn, a4paper]{article}
+
+
+\RequirePackage[a4paper,bindingoffset=0.0cm,vcentering=true,%
+top=2.5cm,bottom=2.5cm,left=3.0cm,right=3.0cm]{geometry}
+
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage{macros}
+
+\title{Cheatsheet for the \textit{macros.sty} file}
+\begin{document}
+	\maketitle
+	
+	\section{Operations}
+	\begin{itemize}
+	\item $\backslash$vect\{x\} -- $\vect{x}$ 
+	\item $\backslash$Diag\{x\} -- $\Diag{x}$ 
+	\item $\backslash$diag\{x\} -- $\diag{x}$ 
+	\item $\backslash$rank\{x\} -- $\rank{x}$ 
+	\item $\backslash$spark\{x\} -- $\spark{x}$ 
+	\item $\backslash$card\{x\} -- $\card{x}$
+	\item $\backslash$trace\{x\} -- $\trace{x}$
+	\item $\backslash$supp\{x\} -- $\supp{x}$
+	\item $\backslash$expval\{x\} -- $\expval{x}$
+	\item $\backslash$cov\{x\} -- $\cov{x}$
+	\item $\backslash$prob\{x\} -- $\prob{x}$
+	\item $\backslash$var\{x\} -- $\var{x}$
+	\item $\backslash$`lpf\{x\} -- $\lpf{x}$
+	\end{itemize}
+	
+	\section{Most Common Sets}
+	\begin{itemize}
+		\item $\backslash$Rset -- $\Rset$ 
+		\item $\backslash$Cset -- $\Cset$ 
+		\item $\backslash$Nset -- $\Nset$ 
+		\item $\backslash$Zset -- $\Zset$ 
+		\item $\backslash$Qset -- $\Qset$ 
+		\item $\backslash$Dset -- $\Dset$ 
+	\end{itemize}
+	\section{Trigonometry}
+	\begin{itemize}
+		\item $\backslash$cos(x)-- $\cos(x)$ 
+		\item $\backslash$cosh -- $\cosh$ 
+		\item $\backslash$sen -- $\sen$ 
+		\item $\backslash$senh -- $\senh$ 
+		\item $\backslash$tg -- $\tg$ 
+		\item $\backslash$tgh -- $\tgh$ 
+		\item $\backslash$ctg -- $\ctg$ 
+		\item $\backslash$ctgh -- $\ctgh$ 
+	\end{itemize}
+	
+	\section{mathrm}
+	'Normal' text in math envinroment.
+	\begin{itemize}
+		\item $\backslash$arm -- $\arm$ 
+		\item $\backslash$zrm -- $\zrm$ 
+		\item $\backslash$Arm -- $\Arm$
+		\item $\backslash$Zrm -- $\Zrm$  
+	\end{itemize}
+	
+	\section{mathcal}
+	Calligraphic font.
+	\begin{itemize} 
+		\item $\backslash$Arm -- $\Acal$
+		\item $\backslash$Zrm -- $\Zcal$  
+	\end{itemize}
+
+	\section{mathsf}
+	Sans serif.
+	\begin{itemize} 
+		\item $\backslash$arm -- $\asf$
+		\item $\backslash$zrm -- $\zsf$  
+		\item $\backslash$Arm -- $\Asf$
+		\item $\backslash$Zrm -- $\Zsf$  
+	\end{itemize}
+
+	\section{mathbf}
+	Bold face.
+	\begin{itemize} 
+		\item $\backslash$abf -- $\abf$
+		\item $\backslash$zbf -- $\zbf$  
+		\item $\backslash$Abf -- $\Abf$
+		\item $\backslash$Zbf -- $\Zbf$  
+	\end{itemize}
+
+	\section{boldsymbol}
+	Bold symbol.
+	\begin{itemize} 
+		\item $\backslash$abs -- $\abs$
+		\item $\backslash$zbs -- $\zbs$  
+		\item $\backslash$Abs -- $\Abs$
+		\item $\backslash$Zbs -- $\Zbs$  
+	\end{itemize}
+
+	\section{Tilde}
+	Tilde
+	\begin{itemize} 
+		\item $\backslash$atil -- $\atil$
+		\item $\backslash$ztil -- $\ztil$  
+		\item $\backslash$Atil -- $\Atil$
+		\item $\backslash$Ztil -- $\Ztil$  
+	\end{itemize}
+	
+	\section{tilde + mathbf}
+	Tilde + Bold face.
+	\begin{itemize} 
+		\item $\backslash$abftil -- $\abftil$
+		\item $\backslash$zbftil -- $\zbftil$  
+		\item $\backslash$Abftil -- $\Abftil$
+		\item $\backslash$Zbftil -- $\Zbftil$  
+	\end{itemize}
+
+	\section{tilde + mathbf}
+	Tilde + mathbf.
+	\begin{itemize} 
+		\item $\backslash$abft -- $\abft$
+		\item $\backslash$zbft -- $\zbft$  
+		\item $\backslash$Abft -- $\Abft$
+		\item $\backslash$Zbft -- $\Zbft$  
+	\end{itemize}
+
+	\section{Hat}
+	Hat.
+	\begin{itemize} 
+		\item $\backslash$ahat -- $\ahat$
+		\item $\backslash$zhat -- $\zhat$  
+		\item $\backslash$Ahat -- $\Ahat$
+		\item $\backslash$Zhat -- $\Zhat$  
+	\end{itemize}
+	
+	\section{Hat + mathbf}
+	Hat + bold face.
+	\begin{itemize} 
+		\item $\backslash$abfh -- $\abfh$
+		\item $\backslash$zbfh -- $\zbfh$  
+		\item $\backslash$Abfh -- $\Abfh$
+		\item $\backslash$Zbfh -- $\Zbfh$  
+	\end{itemize}
+
+
+
+	\section{hat + boldsymbol}
+	Hat + Bold symbol.
+	\begin{itemize} 
+		\item $\backslash$absh -- $\absh$
+		\item $\backslash$zbsh -- $\zbsh$  
+		\item $\backslash$Absh -- $\Absh$
+		\item $\backslash$Zbsh -- $\Zbsh$  
+	\end{itemize}
+
+	
+
+	
+
+
+	\section{Ring}
+	Ring.
+	\begin{itemize} 
+		\item $\backslash$aring -- $\aring$
+		\item $\backslash$zring -- $\zring$  
+		\item $\backslash$Aring -- $\Aring$
+		\item $\backslash$Zring -- $\Zring$  
+	\end{itemize}
+
+	\section{Ring + mathbf}
+	Ring + bold face.
+	\begin{itemize} 
+		\item $\backslash$aringbf -- $\aringbf$
+		\item $\backslash$zringbf -- $\zringbf$  
+		\item $\backslash$Aringbf -- $\Aringbf$
+		\item $\backslash$Zringbf -- $\Zringbf$  
+	\end{itemize}
+
+	\section{Greek letter + bold symbols}
+	\begin{itemize} 
+		\item $\backslash$Phibf -- $\Phibf$
+		\item $\backslash$Lambdabf -- $\Lambdabf$  
+		\item $\backslash$Deltabf -- $\Deltabf$  
+		\item $\backslash$alphabf -- $\alphabf$ 
+		\item $\backslash$betabf -- $\betabf$ 
+		\item $\backslash$gammabf -- $\gammabf$ 
+		\item $\backslash$deltabf -- $\deltabf$ 
+		\item $\backslash$epsilonbf -- $\epsilonbf$ 
+		\item $\backslash$etabf -- $\etabf$ 
+		\item $\backslash$thetabf -- $\thetabf$ 
+		\item $\backslash$varthetabf -- $\varthetabf$ 
+		\item $\backslash$iotabf -- $\iotabf$ 
+		\item $\backslash$kappabf -- $\kappabf$ 
+		\item $\backslash$lambdabf -- $\lambdabf$ 
+		\item $\backslash$mubf -- $\mubf$ 
+		\item $\backslash$nubf -- $\nubf$ 
+		\item $\backslash$xibf -- $\xibf$ 
+		\item $\backslash$oobf -- $\oobf$ 
+		\item $\backslash$pibf -- $\pibf$
+		\item $\backslash$varpibf -- $\varpibf$
+		\item $\backslash$taubf -- $\taubf$
+		\item $\backslash$upsilonbf -- $\upsilonbf$
+		\item $\backslash$phibf -- $\phibf$
+		\item $\backslash$chibf -- $\chibf$
+		\item $\backslash$psibf -- $\psibf$
+		\item $\backslash$omegabf -- $\omegabf$
+		\item $\backslash$Pibf -- $\Pibf$
+		\item $\backslash$Sigmabf -- $\Sigmabf$		
+
+	\end{itemize}
+
+	
+	
+	
+	
+	
+\end{document}
