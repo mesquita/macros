@@ -1,3 +1,3 @@
-# Macros
+# Macros for LaTeX documents
 
-Macros for latex documents
+Useful.
